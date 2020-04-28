@@ -1,0 +1,13 @@
+{
+    "twillio": {
+      "account_sid": "AXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "auth_token": "5XXXXXXXXXXXXXXXXXXXXXXX"
+    },
+  
+    "sheet": {
+      "ID": "1XXXXXXXXXXXXXXXXXX",
+      "range": "Sheet1!B2:D"
+    }
+  
+  }
+  

@@ -1,0 +1,26 @@
+{
+  "name": "scheduler",
+  "version": "1.0.0",
+  "description": "A simple scheduler which sends you an alert based on a timetable in a google sheet",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/**/*test.js --reporter spec --timeout 10000"
+  },
+  "author": "Ishan Arora",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "googleapis": "^39.2.0",
+    "moment": "^2.24.0",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.4.6",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "twilio": "^3.42.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.1"
+  }
+}
